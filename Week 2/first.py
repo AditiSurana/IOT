@@ -26,8 +26,8 @@ def future():
     
 future();
 
-fromaddr = "email"
-toaddr = "email"
+fromaddr = "****"
+toaddr = raw_input("Enter email")
 msg = MIMEMultipart()
 msg['From'] = fromaddr
 msg['To'] = toaddr
